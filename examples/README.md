@@ -19,7 +19,7 @@ device id       device name                     total memory(GB)  used memory(MB
 ----------
 
 ## `system_dashboard` Directory
-- Web-based dashboards that shows sytem status of CPU, GPU, memory and network. It uses [Bokeh server](https://docs.bokeh.org/en/latest/docs/user_guide/server.html) for real-time processing of system data along with pyrsmi (GPU) and psutil (CPU).
+- Web-based dashboards that shows system status of CPU, GPU, memory and network. It uses [Bokeh server](https://docs.bokeh.org/en/latest/docs/user_guide/server.html) for real-time processing of system data along with pyrsmi (GPU) and psutil (CPU).
 
 ### Setup
 - Get a ROCm-enabled AMD GPU system
@@ -39,7 +39,7 @@ device id       device name                     total memory(GB)  used memory(MB
 
 ### Results
 - System dashboard front page:
-  ![system dashboard fron page](imgs/system_dashboard_root.JPG "Front Page")
+  ![system dashboard front page](imgs/system_dashboard_root.JPG "Front Page")
 - System Resources sample (CPU + GPU):
   ![System Resource page](imgs/system_dashboard_system_resources.JPG "Resources CPU + GPU")
 - GPU Utilization sample:

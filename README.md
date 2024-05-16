@@ -2,15 +2,15 @@
 ### Python Bindings for System Management Library for AMD GPUs
 --------
 - `pyrsmi` is a python package of rocm-smi-lib, for providing a limited features of ROCm System Management Library for assisting Python development involving AMD GPUs.
-- It is based on (`rocm-smi-lib`)[https://github.com/RadeonOpenCompute/rocm_smi_lib], so its scope of support should be similar to that of the latter.
+- It is based on [`rocm-smi-lib`](https://github.com/RadeonOpenCompute/rocm_smi_lib), so its scope of support should be similar to that of the latter.
 
 ## Requirements
 - `pyrsmi` runs on latest ROCm-supported Instinct MI-series GPU systems. Scope of tested systems is limited; please create tickets for any issues encountered.
 
 ## How to install from source
-- Clone this repo: 
+- Clone this repo:
   - `git clone https://github.com/ROCm/pyrsmi`
-  - cd pyrsmi
+  - `cd pyrsmi`
 - `python -m pip install -e .`
 - `pyrsmi` can be installed as PyPA-compatible Python package.
 
@@ -30,7 +30,7 @@
 ## How to use `pyrsmi`
 - Environment setup:
   - `pyrsmi` searches for `rocm-smi` library from default ROCm environment variable `ROCM_PATH`. So, for standard ROCm installation, the library will be automatically detected. In some unusual case where the ROCm installation is moved, make sure to set the environment variable as so :
-    ```bash
+    ```ShellSession
     $ mv /opt/rocm/ /usr/local/xyz/
     $ export ROCM_PATH=/usr/local/xyz/
     ```
